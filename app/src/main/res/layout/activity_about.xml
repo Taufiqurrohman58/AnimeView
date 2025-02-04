@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="top"
+        android:background="#4CAF50" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="150dp">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/profil"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_background"
+            android:clipToOutline="true" />
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taufiqurrohman"
+            android:textColor="#388E3C"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/lightpoppins"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/profile_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="taufiqurrohman250503@gmail.com"
+            android:textColor="#757575"
+            android:textSize="16sp"
+            android:fontFamily="@font/lightpoppins"
+            android:layout_marginTop="4dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</FrameLayout>
